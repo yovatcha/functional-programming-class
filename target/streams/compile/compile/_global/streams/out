@@ -1,8 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/foundation/level2/Recursion.scala:16:41 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m  [33melse[0m (list.head + [31m5[0m) :: transform(list.tail)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                    ^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                  Found:    List[Int @uncheckedVariance][0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                  Required: List[String][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: /Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/foundation/level3/Maybe.scala:18:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0mprintln([31m"======================="[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -14,7 +14,15 @@ def transform(list: List[String]): List[String] =
 def transformPlus5(list: List[Int]): List[Int] =
   if list.isEmpty then Nil
   else (list.head + 5) :: transformPlus5(list.tail)
-  
+
+
+
+extension (list: List[Int])
+  @targetName("transformWith")
+  def transformWith(f: Int => Int): List[Int] =
+    if list.isEmpty then Nil
+    else f(list.head) :: list.tail.transformWith(f)
+ 
 val students1 = List("Alice", "Bob", "Charlie", "David", "Eve")
 val scores1 = List(100, 90, 80, 70, 60)
 
@@ -22,3 +30,4 @@ val scores1 = List(100, 90, 80, 70, 60)
   println(factorial(5))
   println(transform(students1))
   println(transformPlus5(scores1))
+  println(scores1.transformWith(a => a * 5))

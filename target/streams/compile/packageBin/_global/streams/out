@@ -1,5 +1,17 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/functional-programming_3-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3/runLevel2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level3/runLevel2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3/runLevel2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level3/runLevel2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3/HeavyLv2$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level3/HeavyLv2$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3/HeavyLv2$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level3/HeavyLv2$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3/HeavyLv2$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level3/HeavyLv2$package$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	level2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	level2/reveal[0m
@@ -16,18 +28,88 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level2/reveal/RSSProcReveal$package.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	foundation[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level2 2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2 2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Maybe$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Maybe$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Empty.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Empty.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Maybe$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Maybe$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/runYourOwnContainerStep1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/runYourOwnContainerStep1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/level3$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/level3$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/level3$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/level3$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/Empty.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/Empty.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/level3$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/level3$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/Just.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/Just.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/Maybe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/Maybe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/runYourOwnContainer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/runYourOwnContainer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/runYourOwnContainer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/runYourOwnContainer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/Just$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/Just$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/Maybe.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/Maybe.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/complete/Just.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/complete/Just.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/runYourOwnContainerStep1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/runYourOwnContainerStep1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Maybe$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Maybe$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Just.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Just.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Maybe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Maybe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Just$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Just$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Maybe.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Maybe.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3/Just.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3/Just.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	foundation/level2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/runRecursion.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/runRecursion.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/runRecursion.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/runRecursion.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/runExtensionMethod.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/runExtensionMethod.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/Recursion2$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/Recursion2$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/Recursion2$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/Recursion2$package$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/Recursion$package$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/Recursion$package$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/Recursion$package.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/Recursion$package.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/Recursion$package.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/Recursion$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/runExtensionMethod.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/runExtensionMethod.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level2/Recursion2$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level2/Recursion2$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foundation/level3 2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation/level3 2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	foundation 2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/foundation 2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	level1[0m
