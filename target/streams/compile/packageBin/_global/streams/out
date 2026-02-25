@@ -1,0 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/functional-programming_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/RSSProcess.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/RSSProcess.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/RSSProcess$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/RSSProcess$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/RSSProcess.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/RSSProcess.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/Level1Processor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/Level1Processor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/runRSSProcess.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/runRSSProcess.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/runWordCount.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/runWordCount.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/RSSProcess$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/RSSProcess$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/runWordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/runWordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/RSSProcess$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/RSSProcess$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/WordCount.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/WordCount.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/runRSSProcess.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/runRSSProcess.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/Level1Processor.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/Level1Processor.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level1/Level1Processor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes/level1/Level1Processor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

@@ -1,0 +1,166 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:8:58: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mfinal class RSSProcess(val feeds: List[(String, String)]):[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:13:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    for (url, path) <- feeds do[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:15:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      val source = Source.fromURL(url)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:16:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      val xmlContent =[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:22:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      val xml = XML.loadString(xmlContent)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:23:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      val itemNodes = xml \\ "item"[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:24:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      val items = new ListBuffer[(String, String)][0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:26:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      var i = 0[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:27:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      while i < itemNodes.size do[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:29:9: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m        val title = (node \ "title").text.trim[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:30:9: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m        val link = (node \ "link").text.trim[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:31:9: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m        items.append((title, link))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:33:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      val sb = new StringBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:34:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      i = 0[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:35:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      while i < items.size do[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:37:9: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m        val title = item._1[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:38:9: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m        val link = item._2[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:39:9: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m        sb.append(s"Title: $title\nLink: $link\n---\n")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:40:9: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m        i += 1[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:42:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      val content = sb.toString[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:43:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      Files.write(Paths.get(path), content.getBytes)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:44:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      println(s"  [Done] Saved to $path")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:46:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    println("✅ All done (sequentially).")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:48:23: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mobject Level1Processor:[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/RSSProcess.scala:55:7: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m@main def runRSSProcess(): Unit =[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:11:44: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mfinal class WordCount(val filePath: String):[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:17:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val source = Source.fromFile(filePath)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:18:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val rawText =[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:23:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val normalized = rawText.toLowerCase[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:24:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val sb = new StringBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:25:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    var i = 0[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:26:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    while i < normalized.length do[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:28:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      if c.isLetter then sb.append(c)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:30:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      i += 1[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:31:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val text = sb.toString[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:33:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val wordList = text.split("\\s+").filter(_.nonEmpty).toList[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:35:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val totalWords = wordList.size[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:36:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val uniqueCount = wordList.distinct.size[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:38:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val countMap = scala.collection.mutable.Map.empty[String, Int][0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:39:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    var idx = 0[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:40:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    while idx < wordList.size do[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:42:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      countMap(w) = countMap.getOrElse(w, 0) + 1[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:43:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      idx += 1[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:44:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val top5 = countMap.toList.sortBy(-_._2).take(5)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:46:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val report = new StringBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:47:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    report.append(s"File: $filePath\n")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:48:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    report.append(s"Total words: $totalWords\n")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:49:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    report.append(s"Unique words: $uniqueCount\n")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:50:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    report.append("Top 5:\n")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:51:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    for (word, n) <- top5 do report.append(s"  $word: $n\n")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:52:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    println(report.toString)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:53:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    println("✅ Done.")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:55:17: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mobject WordCount:[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:58:9: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  @main def runWordCount(): Unit =[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level1/practice1.scala:60:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    if Files.exists(Paths.get(path)) then WordCount(path).run()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m55 errors found[0m
