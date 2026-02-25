@@ -1,0 +1,1 @@
+val scala3version = "3.5.2"
