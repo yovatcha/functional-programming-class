@@ -14,20 +14,21 @@ final class RSSProcess(val feeds: List[(String, String)]):
 
     for (url, path) <- feeds do
       println(s"  [Start] Processing $url")
-      // fetch data from url (pure)
+      // fetch data from url (impure effect)
       val source = Source.fromURL(url)
+
+      // parse data (pure logic)
       val xmlContent =
         try
           source.mkString
         finally
           source.close()
-
       val xml = XML.loadString(xmlContent)
       val itemNodes = xml \\ "item"
       val items = new ListBuffer[(String, String)]
 
       var i = 0
-      // format (pure)
+      // format (pure logic)
       while i < itemNodes.size do
         val node = itemNodes(i)
         val title = (node \ "title").text.trim
@@ -44,7 +45,7 @@ final class RSSProcess(val feeds: List[(String, String)]):
         i += 1
 
       val content = sb.toString
-      // save (effect)
+      // save (impure effect)
       Files.write(Paths.get(path), content.getBytes)
       println(s"  [Done] Saved to $path")
 
@@ -59,3 +60,16 @@ object Level1Processor:
 
 @main def runRSSProcess(): Unit =
   new RSSProcess(Level1Processor.defaultFeeds).run()
+
+private def extractItems(
+    itemNodes: Seq[scala.xml.Node]
+): List[(String, String)] =
+  val items = new ListBuffer[(String, String)]
+  var i = 0
+  while i < itemNodes.size do
+    val node = itemNodes(i)
+    val title = (node \ "title").text.trim
+    val link = (node \ "link").text.trim
+    items.append((title, link))
+    i += 1
+  items.toList

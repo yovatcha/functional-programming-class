@@ -17,9 +17,16 @@ def doThing(f: Int => Int, a: Int): Int = f.apply(a)
 val result3 = doThing((a: Int) => a + 2, 1)
 val result4 = doThing((a: Int) => a * 2,3)
 
-val result5 = dothing((a: Int) => a * 2, doThing(a: Int) => a + 2, 1)
+// val result5 = dothing((a: Int) => a * 2, doThing(a: Int) => a + 2, 1)
 
-def chain2(f1: Int => Int, f2: Int => Int, a: Int): Int =
+//my try
+def tryChain(f1: Int => Int, f2: Int => Int, a: Int): Int =
   f2(f1(a))
 
-val result5 = chain2(a => a + 2, a => a * 2, 1)  // 6
+val result6 = tryChain(a => a + 2, a => a * 2, 1)
+
+def calculate(factor: Int)(value: Int): Int = factor * value
+
+val triple = calculate(3) _ // Partially applied function
+val result7 = triple(10)     // Result is 30
+
