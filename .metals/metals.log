@@ -6075,3 +6075,7 @@ WARNING: Unmatched cancel notification for request id 550
 2026.02.25 14:51:27 WARN  no build target for: /Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level4/level4.scala
 2026.02.25 14:51:27 INFO  no build target found for /Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level4/level4.scala. Using presentation compiler with project's scala-library version: 3.3.7
 2026.02.25 14:51:27 INFO  no build target found for /Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level4/level4.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.25 14:51:45 WARN  no build target for: /Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level4/level4.scala
+2026.02.25 14:51:45 INFO  no build target found for /Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level4/level4.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.25 14:51:46 INFO  no build target found for /Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level4/level4.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.25 14:52:02 INFO  no build target found for /Users/vatcharamai/Desktop/train/functional-programming/src/main/scala/level4/level4.scala. Using presentation compiler with project's scala-library version: 3.3.7

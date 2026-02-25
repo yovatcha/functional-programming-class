@@ -1,7 +1,5 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Maybe.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	level3$package.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Empty.class[0m
@@ -18,4 +16,66 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Just$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Empty$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	level3$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Maybe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Just.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runYourOwnContainer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Just$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Maybe.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Just.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runYourOwnContainer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Just$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Maybe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runLevel2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServedDish$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServedDish.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level4$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level4$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CookedDish.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Just.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Egg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pan$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Level3$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pan.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runYourOwnContainer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Egg$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Just$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Level3$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runLevel4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CookedDish$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Maybe.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runLevel2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServedDish$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServedDish.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level4$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level4$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CookedDish.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Just.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Egg.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pan$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Level3$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pan.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runYourOwnContainer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Egg$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Just$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Level3$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	level3$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runLevel4.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CookedDish$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/vatcharamai/Desktop/train/functional-programming/target/scala-3.5.2/classes.bak[0m
